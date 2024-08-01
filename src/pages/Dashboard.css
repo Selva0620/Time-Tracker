@@ -1,0 +1,45 @@
+.dash-section {
+    margin-left: 210px;
+    padding: 20px;
+}
+
+.project-card, .task-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 1px 3px 14px 0px rgba(11, 0, 0, 0.36);
+    /* width: 50%; */
+    margin-top: 2rem;
+    transition: transform 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.02); 
+  }
+  .task-card:hover {
+    transform: scale(1.02); 
+  }
+  .pro-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 1px 3px 14px 0px rgba(11, 0, 0, 0.36);
+    width: 50%;
+    margin-top: 2rem;
+  }
+  .track-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    box-shadow: 1px 3px 14px 0px rgba(11, 0, 0, 0.36);
+    padding: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .dash-section {
+        margin-left: 0px;
+    }
+    
+  }
